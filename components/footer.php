@@ -22,7 +22,7 @@
          <h3 style="color: #391ba5; text-transform: uppercase;">contact us</h3>
          <a href="tel:+251917805944"><i class="fas fa-phone"></i> +251917805944</a>
          <a href="tel:+251904170426"><i class="fas fa-phone"></i> +251904170426</a>
-         <a href="mailto:milibefk@gmail.com"><i class="fas fa-envelope"></i> milibefk@gmail.com</a>
+         <a href="mailto:milibefk@gmail.com" style="text-transform: lowercase;"><i class="fas fa-envelope"></i> milibefk@gmail.com</a>
          <a href="https://www.google.com/maps/@8.8660343,38.8094698,16z?entry=ttu"><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia  </a>
       </div>
 

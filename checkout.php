@@ -69,7 +69,7 @@ if(isset($_POST['order'])){
 
    <form action="" method="POST">
 
-   <h3>your orders</h3>
+   <h3  style=" font-weight: 900; font-family: 'Roboto', sans-serif;">your orders</h3>
 
       <div class="display-orders">
       <?php
@@ -92,10 +92,10 @@ if(isset($_POST['order'])){
       ?>
          <input type="hidden" name="total_products" value="<?= $total_products; ?>">
          <input type="hidden" name="total_price" value="<?= $grand_total; ?>" value="">
-         <div class="grand-total">grand total : <span>$<?= $grand_total; ?>/-</span></div>
+         <div class="grand-total" style="style=" font-weight: 900; font-family: 'Roboto', sans-serif;>grand total : <span>$<?= $grand_total; ?>/-</span></div>
       </div>
 
-      <h3>place your orders</h3>
+      <h3 style=" font-weight: 900; font-family: 'Roboto', sans-serif;">place your orders</h3>
 
       <div class="flex">
          <div class="inputBox">
@@ -123,21 +123,18 @@ if(isset($_POST['order'])){
             <span>address line 01 :</span>
             <input type="text" name="flat" placeholder="e.g. flat number" class="box" maxlength="50" required>
          </div>
-         <div class="inputBox">
-            <span>address line 02 :</span>
-            <input type="text" name="street" placeholder="e.g. street name" class="box" maxlength="50" required>
-         </div>
+
          <div class="inputBox">
             <span>city :</span>
-            <input type="text" name="city" placeholder="e.g. mumbai" class="box" maxlength="50" required>
+            <input type="text" name="city" placeholder="e.g. Addis Ababa" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
             <span>state :</span>
-            <input type="text" name="state" placeholder="e.g. maharashtra" class="box" maxlength="50" required>
+            <input type="text" name="state" placeholder="e.g. Addis Ababa" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
             <span>country :</span>
-            <input type="text" name="country" placeholder="e.g. India" class="box" maxlength="50" required>
+            <input type="text" name="country" placeholder="e.g. Ethiopia" class="box" maxlength="50" required>
          </div>
          <div class="inputBox">
             <span>pin code :</span>
